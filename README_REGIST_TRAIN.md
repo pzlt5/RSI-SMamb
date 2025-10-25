@@ -58,9 +58,7 @@ python train_regist_dcos.py --epochs 50 --batch_size 4 --lr 1e-4
   - 集成GlobalRegistrationBlock和LocalRegistrationBlock
   - 自动权重初始化
 
-### DCOS_SSIM损失函数
-- **功能**: 最小化相似图像对的嵌入距离
-- **特点**: 结合对比学习和SSIM损失
+### 损失函数
 - **优化目标**: 使配准图像对在嵌入空间中距离更近
 
 ## 训练输出
