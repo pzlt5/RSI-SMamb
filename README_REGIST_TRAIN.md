@@ -17,7 +17,10 @@ e:\L2regist\
     └── Train/512/
         ├── SAR/               # SAR图像（00000.png-00096.png）
         └── OPT/               # OPT图像（00000.png-00096.png）
-        ....
+    ..../256
+
+
+
 ```
 
 ## 快速开始
@@ -42,7 +45,7 @@ python train_regist_dcos.py --epochs 50 --batch_size 4 --lr 1e-4
 | `--batch_size` | 4 | 批次大小（根据GPU内存调整） |
 | `--epochs` | 50 | 训练轮数 |
 | `--lr` | 1e-4 | 学习率 |
-| `--margin` | 1.0 | DCOS_SSIM损失中的margin参数 |
+| `--margin` | 1.0 | 损失中的margin参数 |
 | `--save_dir` | 'checkpoints' | 模型保存目录 |
 
 ## 模型架构
