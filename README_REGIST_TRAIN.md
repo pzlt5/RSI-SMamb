@@ -5,7 +5,7 @@
 
 ## 文件结构
 ```
-。\L2regist\
+.\L2regist\
 ├── train.py                    # 简化版训练脚本（直接运行）
 ├── train_regist_dcos.py        # 完整版训练脚本（支持命令行参数）
 ├── model_build/
